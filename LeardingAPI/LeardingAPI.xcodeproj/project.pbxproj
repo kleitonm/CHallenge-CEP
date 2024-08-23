@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB281EF62C335F1500E37435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB281EF52C335F1500E37435 /* AppDelegate.swift */; };
+		FB281EFA2C335F1500E37435 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB281EF92C335F1500E37435 /* HomeViewController.swift */; };
+		FB281EFF2C335F1700E37435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB281EFE2C335F1700E37435 /* Assets.xcassets */; };
+		FB281F022C335F1700E37435 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FB281F012C335F1700E37435 /* Base */; };
+		FB281F0D2C335F1700E37435 /* LeardingAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB281F0C2C335F1700E37435 /* LeardingAPITests.swift */; };
+		FB281F172C335F1700E37435 /* LeardingAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB281F162C335F1700E37435 /* LeardingAPIUITests.swift */; };
+		FB281F192C335F1700E37435 /* LeardingAPIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB281F182C335F1700E37435 /* LeardingAPIUITestsLaunchTests.swift */; };
+		FB281F2C2C3361E000E37435 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB281F2B2C3361E000E37435 /* HomeService.swift */; };
+		FB281F2E2C33651400E37435 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB281F2D2C33651400E37435 /* DataModel.swift */; };
+		FB281F302C336A1A00E37435 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB281F2F2C336A1A00E37435 /* HomeViewModel.swift */; };
+		FB281F322C336C1C00E37435 /* HomeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB281F312C336C1C00E37435 /* HomeFactory.swift */; };
+		FB281F8B2C39D42F00E37435 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB281F8A2C39D42F00E37435 /* HomeViewModelTests.swift */; };
+		FB281F8E2C39D47600E37435 /* HomeViewModelSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB281F8D2C39D47600E37435 /* HomeViewModelSpy.swift */; };
+		FB281FDE2C40A5B200E37435 /* HomeFactorytests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB281FDD2C40A5B200E37435 /* HomeFactorytests.swift */; };
+		FB281FE22C40A87200E37435 /* HomeServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB281FE12C40A87200E37435 /* HomeServiceTests.swift */; };
+		FB281FE42C40A89F00E37435 /* HomeServiceProtocolSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB281FE32C40A89F00E37435 /* HomeServiceProtocolSpy.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB281F092C335F1700E37435 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB281EEA2C335F1400E37435 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB281EF12C335F1500E37435;
+			remoteInfo = LeardingAPI;
+		};
+		FB281F132C335F1700E37435 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB281EEA2C335F1400E37435 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB281EF12C335F1500E37435;
+			remoteInfo = LeardingAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB281EF22C335F1500E37435 /* LeardingAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeardingAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB281EF52C335F1500E37435 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB281EF92C335F1500E37435 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FB281EFE2C335F1700E37435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB281F012C335F1700E37435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB281F032C335F1700E37435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB281F082C335F1700E37435 /* LeardingAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeardingAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB281F0C2C335F1700E37435 /* LeardingAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeardingAPITests.swift; sourceTree = "<group>"; };
+		FB281F122C335F1700E37435 /* LeardingAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeardingAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB281F162C335F1700E37435 /* LeardingAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeardingAPIUITests.swift; sourceTree = "<group>"; };
+		FB281F182C335F1700E37435 /* LeardingAPIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeardingAPIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB281F2B2C3361E000E37435 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		FB281F2D2C33651400E37435 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		FB281F2F2C336A1A00E37435 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FB281F312C336C1C00E37435 /* HomeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFactory.swift; sourceTree = "<group>"; };
+		FB281F8A2C39D42F00E37435 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		FB281F8D2C39D47600E37435 /* HomeViewModelSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelSpy.swift; sourceTree = "<group>"; };
+		FB281FDD2C40A5B200E37435 /* HomeFactorytests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFactorytests.swift; sourceTree = "<group>"; };
+		FB281FE12C40A87200E37435 /* HomeServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServiceTests.swift; sourceTree = "<group>"; };
+		FB281FE32C40A89F00E37435 /* HomeServiceProtocolSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServiceProtocolSpy.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB281EEF2C335F1500E37435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB281F052C335F1700E37435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB281F0F2C335F1700E37435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB281EE92C335F1400E37435 = {
+			isa = PBXGroup;
+			children = (
+				FB281EF42C335F1500E37435 /* LeardingAPI */,
+				FB281F0B2C335F1700E37435 /* LeardingAPITests */,
+				FB281F152C335F1700E37435 /* LeardingAPIUITests */,
+				FB281EF32C335F1500E37435 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB281EF32C335F1500E37435 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB281EF22C335F1500E37435 /* LeardingAPI.app */,
+				FB281F082C335F1700E37435 /* LeardingAPITests.xctest */,
+				FB281F122C335F1700E37435 /* LeardingAPIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB281EF42C335F1500E37435 /* LeardingAPI */ = {
+			isa = PBXGroup;
+			children = (
+				FB281F272C3360F200E37435 /* Start */,
+				FB281F262C3360F000E37435 /* Features */,
+				FB281F252C3360EE00E37435 /* Resource */,
+			);
+			path = LeardingAPI;
+			sourceTree = "<group>";
+		};
+		FB281F0B2C335F1700E37435 /* LeardingAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB281F892C39D3C800E37435 /* Home */,
+				FB281F0C2C335F1700E37435 /* LeardingAPITests.swift */,
+			);
+			path = LeardingAPITests;
+			sourceTree = "<group>";
+		};
+		FB281F152C335F1700E37435 /* LeardingAPIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB281F162C335F1700E37435 /* LeardingAPIUITests.swift */,
+				FB281F182C335F1700E37435 /* LeardingAPIUITestsLaunchTests.swift */,
+			);
+			path = LeardingAPIUITests;
+			sourceTree = "<group>";
+		};
+		FB281F252C3360EE00E37435 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FB281EFE2C335F1700E37435 /* Assets.xcassets */,
+				FB281F002C335F1700E37435 /* LaunchScreen.storyboard */,
+				FB281F032C335F1700E37435 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FB281F262C3360F000E37435 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				FB281F282C33611C00E37435 /* Scene */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		FB281F272C3360F200E37435 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				FB281EF52C335F1500E37435 /* AppDelegate.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		FB281F282C33611C00E37435 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				FB281F292C33612700E37435 /* Home */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		FB281F292C33612700E37435 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FB281F372C33757700E37435 /* Factory */,
+				FB281F362C33756F00E37435 /* Domain */,
+				FB281F352C33756C00E37435 /* Service */,
+				FB281F342C33756A00E37435 /* Presentation */,
+				FB281F332C33756600E37435 /* UI */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FB281F332C33756600E37435 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FB281EF92C335F1500E37435 /* HomeViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FB281F342C33756A00E37435 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				FB281F2F2C336A1A00E37435 /* HomeViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		FB281F352C33756C00E37435 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FB281F2B2C3361E000E37435 /* HomeService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FB281F362C33756F00E37435 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				FB281F2D2C33651400E37435 /* DataModel.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		FB281F372C33757700E37435 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				FB281F312C336C1C00E37435 /* HomeFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		FB281F882C39D3C500E37435 /* HomeViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FB281F8A2C39D42F00E37435 /* HomeViewModelTests.swift */,
+			);
+			path = HomeViewModel;
+			sourceTree = "<group>";
+		};
+		FB281F892C39D3C800E37435 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FB281F8C2C39D45A00E37435 /* Spy */,
+				FB281FDF2C40A7D300E37435 /* Service */,
+				FB281FDC2C40A51400E37435 /* HomeFactory */,
+				FB281F882C39D3C500E37435 /* HomeViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FB281F8C2C39D45A00E37435 /* Spy */ = {
+			isa = PBXGroup;
+			children = (
+				FB281F8D2C39D47600E37435 /* HomeViewModelSpy.swift */,
+				FB281FE32C40A89F00E37435 /* HomeServiceProtocolSpy.swift */,
+			);
+			path = Spy;
+			sourceTree = "<group>";
+		};
+		FB281FDC2C40A51400E37435 /* HomeFactory */ = {
+			isa = PBXGroup;
+			children = (
+				FB281FDD2C40A5B200E37435 /* HomeFactorytests.swift */,
+			);
+			path = HomeFactory;
+			sourceTree = "<group>";
+		};
+		FB281FDF2C40A7D300E37435 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FB281FE12C40A87200E37435 /* HomeServiceTests.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB281EF12C335F1500E37435 /* LeardingAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB281F1C2C335F1700E37435 /* Build configuration list for PBXNativeTarget "LeardingAPI" */;
+			buildPhases = (
+				FB281EEE2C335F1500E37435 /* Sources */,
+				FB281EEF2C335F1500E37435 /* Frameworks */,
+				FB281EF02C335F1500E37435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeardingAPI;
+			productName = LeardingAPI;
+			productReference = FB281EF22C335F1500E37435 /* LeardingAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB281F072C335F1700E37435 /* LeardingAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB281F1F2C335F1700E37435 /* Build configuration list for PBXNativeTarget "LeardingAPITests" */;
+			buildPhases = (
+				FB281F042C335F1700E37435 /* Sources */,
+				FB281F052C335F1700E37435 /* Frameworks */,
+				FB281F062C335F1700E37435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB281F0A2C335F1700E37435 /* PBXTargetDependency */,
+			);
+			name = LeardingAPITests;
+			productName = LeardingAPITests;
+			productReference = FB281F082C335F1700E37435 /* LeardingAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB281F112C335F1700E37435 /* LeardingAPIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB281F222C335F1700E37435 /* Build configuration list for PBXNativeTarget "LeardingAPIUITests" */;
+			buildPhases = (
+				FB281F0E2C335F1700E37435 /* Sources */,
+				FB281F0F2C335F1700E37435 /* Frameworks */,
+				FB281F102C335F1700E37435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB281F142C335F1700E37435 /* PBXTargetDependency */,
+			);
+			name = LeardingAPIUITests;
+			productName = LeardingAPIUITests;
+			productReference = FB281F122C335F1700E37435 /* LeardingAPIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB281EEA2C335F1400E37435 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FB281EF12C335F1500E37435 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FB281F072C335F1700E37435 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FB281EF12C335F1500E37435;
+					};
+					FB281F112C335F1700E37435 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FB281EF12C335F1500E37435;
+					};
+				};
+			};
+			buildConfigurationList = FB281EED2C335F1400E37435 /* Build configuration list for PBXProject "LeardingAPI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB281EE92C335F1400E37435;
+			productRefGroup = FB281EF32C335F1500E37435 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB281EF12C335F1500E37435 /* LeardingAPI */,
+				FB281F072C335F1700E37435 /* LeardingAPITests */,
+				FB281F112C335F1700E37435 /* LeardingAPIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB281EF02C335F1500E37435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB281EFF2C335F1700E37435 /* Assets.xcassets in Resources */,
+				FB281F022C335F1700E37435 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB281F062C335F1700E37435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB281F102C335F1700E37435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB281EEE2C335F1500E37435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB281F2C2C3361E000E37435 /* HomeService.swift in Sources */,
+				FB281F2E2C33651400E37435 /* DataModel.swift in Sources */,
+				FB281EFA2C335F1500E37435 /* HomeViewController.swift in Sources */,
+				FB281F302C336A1A00E37435 /* HomeViewModel.swift in Sources */,
+				FB281EF62C335F1500E37435 /* AppDelegate.swift in Sources */,
+				FB281F322C336C1C00E37435 /* HomeFactory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB281F042C335F1700E37435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB281FE22C40A87200E37435 /* HomeServiceTests.swift in Sources */,
+				FB281F8E2C39D47600E37435 /* HomeViewModelSpy.swift in Sources */,
+				FB281FDE2C40A5B200E37435 /* HomeFactorytests.swift in Sources */,
+				FB281FE42C40A89F00E37435 /* HomeServiceProtocolSpy.swift in Sources */,
+				FB281F0D2C335F1700E37435 /* LeardingAPITests.swift in Sources */,
+				FB281F8B2C39D42F00E37435 /* HomeViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB281F0E2C335F1700E37435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB281F172C335F1700E37435 /* LeardingAPIUITests.swift in Sources */,
+				FB281F192C335F1700E37435 /* LeardingAPIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB281F0A2C335F1700E37435 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB281EF12C335F1500E37435 /* LeardingAPI */;
+			targetProxy = FB281F092C335F1700E37435 /* PBXContainerItemProxy */;
+		};
+		FB281F142C335F1700E37435 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB281EF12C335F1500E37435 /* LeardingAPI */;
+			targetProxy = FB281F132C335F1700E37435 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB281F002C335F1700E37435 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB281F012C335F1700E37435 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB281F1A2C335F1700E37435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB281F1B2C335F1700E37435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB281F1D2C335F1700E37435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeardingAPI/Resource/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.companyname.LeardingAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB281F1E2C335F1700E37435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeardingAPI/Resource/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.companyname.LeardingAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB281F202C335F1700E37435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.companyname.LeardingAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeardingAPI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LeardingAPI";
+			};
+			name = Debug;
+		};
+		FB281F212C335F1700E37435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.companyname.LeardingAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeardingAPI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LeardingAPI";
+			};
+			name = Release;
+		};
+		FB281F232C335F1700E37435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.companyname.LeardingAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeardingAPI;
+			};
+			name = Debug;
+		};
+		FB281F242C335F1700E37435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.companyname.LeardingAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeardingAPI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB281EED2C335F1400E37435 /* Build configuration list for PBXProject "LeardingAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB281F1A2C335F1700E37435 /* Debug */,
+				FB281F1B2C335F1700E37435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB281F1C2C335F1700E37435 /* Build configuration list for PBXNativeTarget "LeardingAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB281F1D2C335F1700E37435 /* Debug */,
+				FB281F1E2C335F1700E37435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB281F1F2C335F1700E37435 /* Build configuration list for PBXNativeTarget "LeardingAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB281F202C335F1700E37435 /* Debug */,
+				FB281F212C335F1700E37435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB281F222C335F1700E37435 /* Build configuration list for PBXNativeTarget "LeardingAPIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB281F232C335F1700E37435 /* Debug */,
+				FB281F242C335F1700E37435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB281EEA2C335F1400E37435 /* Project object */;
+}
